@@ -1,4 +1,12 @@
-ul li 
+nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: ffff66;
+}
+
+nav ul li 
 {list-style-type: none;
 margin-bottom: 2px;
 display: inline-block;
@@ -7,10 +15,7 @@ padding: 15px 15px 15px 15px;
 background-color: #7f7f7f;
 width: 100px;
 text-align: center;
-}
-
-nav ul li {
-    position: relative;
+position: relative;
 }
 
 nav ul li ul {
@@ -22,8 +27,14 @@ nav ul li ul {
 
 nav ul li ul li a:hover {
     background-color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li ul li a:hover {
+    text-decoration: none;
 }
 
 nav ul li:hover ul {
     display: block;
+    text-decoration: none;
 }
