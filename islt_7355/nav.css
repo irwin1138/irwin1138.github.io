@@ -10,12 +10,14 @@ text-align: center;
 }
 
 nav ul li {
-    position: relative;}
+    position: relative;
+}
 
 nav ul li ul {
     position: absolute;
     background-color: #6f6f6f;
     padding: 10px;
+    list-style-type: none;
 }
 
 nav ul li ul li a:hover {
