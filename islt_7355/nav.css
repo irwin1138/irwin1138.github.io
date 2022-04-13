@@ -8,3 +8,20 @@ background-color: #7f7f7f;
 width: 100px;
 text-align: center;
 }
+
+nav ul li {
+    position: relative;}
+
+nav ul li ul {
+    position: absolute;
+    background-color: #6f6f6f;
+    padding: 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #ffffff;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
