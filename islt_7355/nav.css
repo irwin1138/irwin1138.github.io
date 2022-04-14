@@ -1,12 +1,4 @@
-nav {
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: ffff66;
-}
-
-nav ul li 
+ul li 
 {list-style-type: none;
 margin-bottom: 2px;
 display: inline-block;
