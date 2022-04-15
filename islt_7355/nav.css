@@ -29,8 +29,8 @@ nav ul li ul {
     position: absolute;
     list-style-type: none;
     background-color: #ffff66;
-    padding: 10px
-    top: 60px;
+    padding: 100px
+    top: 50px;
     left: -12px;
     display: none;
 }
