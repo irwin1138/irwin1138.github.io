@@ -25,7 +25,7 @@ text-align: center;
 position: relative;
 }
 
-nav ul li ul li {background-color: #6f6f6f;}
+nav ul li ul li {background-color: #9f9f9f;}
 
 nav ul
 {display: flex; justify-content: space-evenly;}
