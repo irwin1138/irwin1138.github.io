@@ -24,9 +24,10 @@ text-align: center;
 position: relative;
 }
 
+nav ul li ul li {background-color: #6f6f6f;}
+
 nav ul li ul {
     position: absolute;
-    background-color: #6f6f6f;
     padding: 10px;
     list-style-type: none;
     top: 60px;
