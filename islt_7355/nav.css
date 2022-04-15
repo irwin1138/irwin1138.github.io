@@ -10,6 +10,8 @@ nav {
     width: 100%;
 }
 
+nav ul {justify-content: space-evenly;}
+
 nav ul li 
 {list-style-type: none;
 margin-bottom: 2px;
@@ -20,7 +22,6 @@ background-color: #7f7f7f;
 width: 100px;
 text-align: center;
 position: relative;
-justify-content: space-evenly;
 }
 
 nav ul li ul li {background-color: #6f6f6f;}
