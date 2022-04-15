@@ -1,3 +1,8 @@
-h1, h2, h3 {color: #631563;}
+h1, h2, h3 {color: #631563; font-family: serif; font: "Bookman Old Style";
+}
 
-body {background-color: #ffff66;}
+body {
+  font-family: sans-serif; font: Calibri;
+  background: #ffff66;
+  color: #574e57;
+}
