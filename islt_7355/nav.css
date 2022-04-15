@@ -27,14 +27,16 @@ position: relative;
 
 nav ul li ul li {background-color: #6f6f6f;}
 
+nav ul
+{display: flex; justify-content: space-evenly;}
+
 nav ul li ul {
-    position: absolute;
-    list-style-type: none;
-    background-color: #ffff66;
-    padding: 10px
-    top: 50px;
-    left: -12px;
-    display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: #ffff66;
+  top: 60px;
+  left: -44px;
+  display: none;
 }
 
 nav ul li:hover ul {
