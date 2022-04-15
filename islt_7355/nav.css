@@ -28,8 +28,6 @@ nav ul li ul li {background-color: #6f6f6f;}
 
 nav ul li ul {
     position: absolute;
-    background-color: #ffff66;
-    padding: 10px;
     list-style-type: none;
     top: 60px;
     left: -12px;
