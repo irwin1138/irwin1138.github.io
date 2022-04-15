@@ -23,13 +23,8 @@ nav ul li ul {
     padding: 10px;
     list-style-type: none;
     top: 50px;
-    left: -15px;
+    left: -13px;
     display: none;
-}
-
-nav ul li ul li a:hover {
-    background-color: #ffffff;
-    text-decoration: none;
 }
 
 nav ul li:hover ul {
