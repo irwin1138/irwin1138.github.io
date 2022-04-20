@@ -26,10 +26,6 @@ footer {height: 20px;
 align-items: left;
 justify-items: left}
 
-/*
-Separate main into two different div elements for mobile screens.
-*/
-
 /*tablet layout*/
 @media only screen and (max-width: 959px) {
  font-size: 1.1rem;
