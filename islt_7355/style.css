@@ -3,6 +3,38 @@ h1, h2, h3 {color: #631563; font-family: Palatino, URW Palladio L, serif;
 
 body {
   font-family: Verdana, sans-serif;
+  font-size: 1.25rem;
   background: #f7f78f;
   color: #574e57;
+}
+
+/*grid*/
+
+nav, section, main, span, footer {display:grid;
+width: 100%;
+margin-bottom: 10px;}
+
+section {grid-template: 600px;
+align-content: center;
+justify-content: space-evenly;}
+
+main {grid-template: 200px / repeat(2, 180px);
+align-content: center;
+justify-content: space-evenly;}
+
+footer {height: 20px;
+align-items: left;
+justify-items: left}
+
+/*
+Separate main into two different div elements for mobile screens.
+*/
+
+/*tablet layout*/
+@media only screen and (max-width: 959px)
+{}
+
+/*mobile layout*/
+@media only screen and (max-width: 479px) {
+  font-size: 1rem;
 }
