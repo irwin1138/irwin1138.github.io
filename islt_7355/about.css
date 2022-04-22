@@ -16,15 +16,7 @@ footer {height: 20px;
 align-items: left;
 justify-items: left}
 
-/*tablet layout*/
-@media only screen and (max-width: 959px) {
-  font-size: 1.2rem;}
-
-/*mobile layout*/
-@media only screen and (max-width: 479px) {
-  font-size: 1rem;
-}
-
+container {
 display: grid;
 grid-template-columns: 50% 50%;
 grid-template-rows: 10% 15% 50% 15% 10%;
@@ -37,3 +29,4 @@ grid-template-areas:
 "Photo Video"
 "Resume ."
 "Footer Footer";
+}
