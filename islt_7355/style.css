@@ -26,9 +26,12 @@ h4 {
 
 /*tablet layout*/
 @media only screen and (max-width: 959px) {
-  font-size: 1.2rem;}
+  font-size: 1.2rem;
+  image-size: 70%;
+}
 
 /*mobile layout*/
 @media only screen and (max-width: 479px) {
   font-size: 1rem;
+  image-size: 40%;
 }
