@@ -22,3 +22,58 @@
   -webkit-font-smoothing: antialiased;
 }
 
+#burger{
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: white;
+  background: linear-gradient(45deg, #9682C8 10%, #05BCC9);;
+  font-size: 32px;
+  padding: 16px 16px 32px 32px;
+  border-radius: 0% 0% 0% 100%;
+  transition: 1s;
+  cursor: pointer;
+}
+#quit{
+  position: fixed;
+  top: 0;
+  color: white;
+  font-size: 32px;
+  padding: 16px;
+  display: none;
+  cursor: pointer;
+}
+
+#links{
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  padding: 25vh 0;
+  justify-content: space-around;
+}
+#links a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-family: 'Roboto';
+  z-index: 10;
+}
+
+function burger(){
+  var burger = document.getElementById('burger');
+  var links = document.getElementById('links');
+  var quit = document.getElementById('quit');
+  burger.style.padding = '16px 16px 200vw 200vw';
+  links.style.display = 'flex';
+  quit.style.display = 'inline';
+}
+function quit(){
+  var burger = document.getElementById('burger');
+  var links = document.getElementById('links');
+  var quit = document.getElementById('quit');
+  burger.style.padding = '16px 16px 32px 32px';
+  links.style.display = 'none';
+  quit.style.display = 'none';
+}
