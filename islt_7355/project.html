@@ -6,31 +6,35 @@
                <title>Project</title>
                <link rel="stylesheet" href="style.css">
                <link rel="stylesheet" href="nav.css">
-<link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="hamburger.css">
+               <link rel="stylesheet" href="index.css">
+               <link rel="stylesheet" href="hamburger.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="container">
       <div class="Navigation">
     <nav>
+        <ul class="menu">
         <i id="burger" class="material-icons" onclick="burger()">menu</i>
-        <ul>
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="about.html" >About</a></li>
-            <li><a href="project.html" >Projects</a>
-                <ul>
-            <li><a href="#" >Link 1</a></li>
-            <li><a href="#" >Link 2</a></li>
-            <li><a href="#" >Link 3</a></li>
+            <li class="logo"><a href="#">logo</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="project.html">Projects</a>
+                <li class="item has-submenu">
+            <a tabindex="0">Services</a>
+            <ul class="submenu">
+                 <li class="subitem"><a href="#">Link 1</a></li>
+                <li class="subitem"><a href="#">Link 2</a></li>
+                <li class="subitem"><a href="#">Link 3</a></li>
                 </ul>
             </li>
-            <li><a href="reflection.html" >Reflection</a></li>
-            <li><a href="#contact.html" >Contact</a></li>
+            <li class="item"><a href="reflection.html">Reflection</a></li>
+            <li class="item"><a href="#contact.html">Contact</a></li>
             </ul>
+         <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
 <i id="quit" class="material-icons" onclick="quit()">clear</i>
     </nav>
-        </div>
+         </div>
       <div class="Header">
     <header>
 <h1>Owen Reissmann</h1>
