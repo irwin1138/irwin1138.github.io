@@ -32,6 +32,26 @@ nav ul li:hover ul {
     display: block;
 }
 
+
+
+.Navigation {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+
+
 /*
   main div > p:first-child::first-letter {
     font-size: 300%;
