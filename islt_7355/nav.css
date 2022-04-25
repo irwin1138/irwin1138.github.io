@@ -32,6 +32,8 @@ nav ul li:hover ul {
     display: block;
 }
 
+/* responsive mobile navigation */
+
 .mobilemenu {
     display: none;
 }
