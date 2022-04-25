@@ -34,7 +34,9 @@ nav ul li:hover ul {
 
 
 
-
+.mobile menu {
+    display: none;
+}
 
 label {
     margin: 0 40px 0 0;
@@ -64,13 +66,13 @@ label {
     display: none;
 }
     
-.menu a {
+.mobile menu {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
 }
 
-#toggle:checked + .menu {
+#toggle:checked + .mobile menu {
     display: block;
     
 }
