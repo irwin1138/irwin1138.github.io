@@ -16,7 +16,7 @@ footer {height: 20px;
 align-items: left;
 justify-items: left}
 
-container {
+.container {
 display: grid;
 <!--grid-template-columns: 50% 50%;-->
 grid-template-rows: 10% 20% 60% 10%;
