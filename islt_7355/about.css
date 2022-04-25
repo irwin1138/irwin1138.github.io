@@ -1,14 +1,10 @@
 /*grid*/
 
-nav, section, main, span, footer {display:grid;
+nav, main, footer {display:grid;
 width: 100%;
 margin-bottom: 10px;}
 
-section {grid-template: 600px;
-align-content: center;
-justify-content: space-evenly;}
-
-main {grid-template: 200px / repeat(2, 180px);
+main {grid-template: 600px;
 align-content: center;
 justify-content: space-evenly;}
 
@@ -16,7 +12,7 @@ footer {height: 20px;
 align-items: left;
 justify-items: left}
 
-container {
+.container {
 display: grid;
 grid-template-columns: 50% 50%;
 grid-template-rows: 10% 10% 50% 10% 10% 10%;
