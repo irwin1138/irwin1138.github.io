@@ -60,13 +60,13 @@ label {
     line-height: 70px;
 }
     
-.mobile menu {
+.mobilemenu {
     text-align: center;
     width: 100%;
     display: none;
 }
     
-.mobile menu a {
+.mobilemenu a {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
