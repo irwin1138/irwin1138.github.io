@@ -1,6 +1,6 @@
 /*grid*/
 
-nav, section, main, span, footer {display:grid;
+nav, section, span, main, footer {display:grid;
 width: 100%;
 margin-bottom: 10px;}
 
@@ -8,7 +8,7 @@ section {grid-template: 600px;
 align-content: center;
 justify-content: space-evenly;}
 
-main {grid-template: 200px / repeat(2, 180px);
+main {grid-template: 200px / 180px;
 align-content: center;
 justify-content: space-evenly;}
 
