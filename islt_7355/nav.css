@@ -72,7 +72,7 @@ label {
     margin: 0;
 }
 
-#toggle:checked + .mobile menu {
+#toggle:checked + .mobilemenu {
     display: block;
     
 }
