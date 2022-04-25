@@ -37,7 +37,6 @@ h4 {
   image-size: 40%;
   video-size: 40%;
   
-/*
   /* Mobile menu */
 .menu {
     display: flex;
@@ -68,7 +67,7 @@ h4 {
 .button.secondary { /* divider between buttons and menu links */
     border-bottom: 1px #444 solid;
 }
-*/
+/*
   @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -147,5 +146,5 @@ function quit(){
   links.style.display = 'none';
   quit.style.display = 'none';
 }
-
+*/
 }
