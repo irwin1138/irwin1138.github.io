@@ -21,7 +21,7 @@ grid-auto-flow: row;
 grid-template-areas:
 "Navigation Navigation"
 "Header Header"
-"Main Main"
+"Section Section"
 "Photo Video"
 "Resume Resume"
 "Footer Footer";
