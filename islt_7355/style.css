@@ -38,26 +38,33 @@ h4 {
   video-size: 40%;
 
   /* Mobile menu */
-.menu
+.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-.menu li a 
+  }
+.menu li a {
     display: block;
     padding: 15px 5px;
-.menu li.subitem a 
+  }
+.menu li.subitem a {
     padding: 15px;
-.toggle 
+  }
+.toggle {
     order: 1;
     font-size: 20px;
-.item 
+  }
+.item { 
     order: 2;
     width: 100%;
     text-align: center;
     display: none;
-.active .item 
+  }
+.active .item {
     display: block;
-.button.secondary  /* divider between buttons and menu links */
+  }
+.button.secondary { /* divider between buttons and menu links */
     border-bottom: 1px #444 solid;
+}
 }
