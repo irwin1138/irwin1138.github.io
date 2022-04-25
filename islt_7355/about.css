@@ -23,8 +23,8 @@ grid-template-rows: 10% 10% 50% 10% 10% 10%;
 gap: 0px 0px;
 grid-auto-flow: row;
 grid-template-areas:
-"Header Header"
 "Navigation Navigation"
+"Header Header"
 "Main Main"
 "Photo Video"
 "Resume Resume"
