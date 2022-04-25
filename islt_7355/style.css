@@ -55,11 +55,8 @@ h4 {
     order: 1;
     font-size: 20px;
 }
-.material-icons {
-    order: 2;
-}
 .item {
-    order: 3;
+    order: 2;
     width: 100%;
     text-align: center;
     display: none;
