@@ -56,6 +56,23 @@ label {
         display: block;
     }
 }
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.menu a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+}
+
+#toggle:checked + .menu {
+    display: block;
+    
+}
+
+
 
 
 
