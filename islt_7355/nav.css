@@ -82,7 +82,7 @@ label {
 .mobilemenu {
     text-align: center;
     width: 100%;
-    display: block;
+    display: none;
 }
         
 .mobilemenu b {
@@ -91,7 +91,7 @@ label {
     margin: 0;
 }
     
-#toggle:checked + .mobilemenu {
+toggle:checked + .mobilemenu {
     display: block;
 }
 
