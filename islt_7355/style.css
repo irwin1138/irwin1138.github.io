@@ -3,10 +3,10 @@ font-family: Updock;
 src: url("Updock-regular.ttf"); 
 }
 
-h1, h2, h3 {color: #631563; font-family: Palatino, URW Palladio L, serif;
+h2, h3 {color: #631563; font-family: Palatino, URW Palladio L, serif;
 }
 
-h1 {font-family: Updock, serif; }
+h1 {color: #631563; font-family: Updock, serif; }
 
 body {
   font-family: Verdana, sans-serif;
