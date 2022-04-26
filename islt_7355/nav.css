@@ -39,7 +39,7 @@ nav ul li:hover ul {
     display: none;
 }
 
-.mobilemenu a {
+.mobilemenu b {
     text-decoration: none;
     color: gray;
     margin: 0 10px;
@@ -80,13 +80,13 @@ label {
     width: 100%    
 }
         
-.mobilemenu a {
+.mobilemenu b {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
 }
     
-#toggle:checked + .menu {
+#toggle:checked + .mobilemenu {
     display: block;
 }
 
