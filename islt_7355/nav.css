@@ -36,7 +36,7 @@ nav ul li:hover ul {
 
 .mobilemenu {
     margin: 0 30px 0 0;
-    display: block;
+    display: none;
 }
 
 .mobilemenu b {
@@ -60,6 +60,7 @@ label {
 @media only screen and (max-width: 500px) {
     label {
         display: block;
+        cursor: pointer;
     }
 
     .Navigation {
@@ -87,7 +88,7 @@ label {
 }
     
 #toggle:checked + .mobilemenu {
-    display: none;
+    display: block;
 }
 
 }
