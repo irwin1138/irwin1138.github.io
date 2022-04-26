@@ -38,7 +38,7 @@ h4 {
       box-shadow: none !important;
       text-shadow: none !important;
   }
-    nav
+  image, video, nav 
   {
       display: none;
     }
@@ -50,12 +50,12 @@ h4 {
 }
  /*
   a[href]::after {
-    content: "["attr(href)"]";
+    content: "[ "attr(href)" ]";
     color: blue;
 }
   */
   @page {
-    margin: .5cm
+    margin: 1cm
   }
   h2, h4, ul {
     page-break-after: avoid;
@@ -64,6 +64,9 @@ h4 {
     orphans: 3;
     orphans: 3;
     font-size: 11pt;
+  }
+  body {
+    font-family: Palatino, URW Palladio L, serif;
 }
 }
 
