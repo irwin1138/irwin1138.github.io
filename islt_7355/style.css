@@ -40,8 +40,6 @@ ul {
   * {
     background: transparent;
     color: #000;
-      box-shadow: none !important;
-      text-shadow: none !important;
   }
   image, video, nav 
   {
@@ -58,6 +56,10 @@ ul {
     content: "[ "attr(href)" ]";
     color: blue;
 }
+    p, ul {
+    orphans: 3;
+    widows: 3;
+   }
   */
   @page {
     margin: 1cm
@@ -65,13 +67,9 @@ ul {
   h2, h4, ul {
     page-break-after: avoid;
   }
-  p, ul {
-    orphans: 3;
-    orphans: 3;
-    font-size: 11pt;
-  }
   body {
-    font-family: Palatino, URW Palladio L, serif;
+     font-size: 11pt;
+    font-family: Palatino, URW Palladio L, serif !important;;
 }
 }
 
