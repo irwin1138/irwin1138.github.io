@@ -87,7 +87,7 @@ label {
 }
     
 #toggle:checked + .mobilemenu {
-    display: block;
+    display: none;
 }
 
 }
