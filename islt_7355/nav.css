@@ -82,7 +82,7 @@ label {
 .mobilemenu {
     text-align: center;
     width: 100%;
-    display: none;
+    display: block;
 }
         
 .mobilemenu b {
