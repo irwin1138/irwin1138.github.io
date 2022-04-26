@@ -90,7 +90,7 @@ label {
     margin: 0;
 }
     
-#toggle:checked + .menu {
+#toggle:checked + .mobilemenu {
     display: block;
 }
 
