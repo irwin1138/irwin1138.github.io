@@ -74,17 +74,20 @@ label {
     width: 100%;
     display: none;
 }
+    
+.mobilemenu {
+    text-align: center;
+    width: 100%    
+}
         
 .mobilemenu a {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
 }
-
-    
     
 #toggle:checked + .mobilemenu {
     display: block;
-    
 }
+
 }
