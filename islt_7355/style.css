@@ -38,7 +38,7 @@ h4 {
       box-shadow: none !important;
       text-shadow: none !important;
   }
-    nav, footer
+    nav
   {
       display: none;
     }
@@ -48,9 +48,23 @@ h4 {
     border: none;
     text-align: center;
 }
+ /*
   a[href]::after {
     content: "["attr(href)"]";
     color: blue;
+}
+  */
+  @page {
+    margin: .5cm
+  }
+  h2, h4, ul {
+    page-break-after: avoid;
+  }
+  p, ul {
+    orphans: 3;
+    orphans: 3;
+    font-size: 11pt;
+}
 }
 
 /*tablet layout*/
