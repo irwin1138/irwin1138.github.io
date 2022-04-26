@@ -91,7 +91,7 @@ label {
     margin: 0;
 }
     
-toggle:checked + .mobilemenu {
+#toggle:checked + .mobilemenu {
     display: block;
 }
 
