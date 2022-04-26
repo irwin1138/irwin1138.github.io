@@ -4,12 +4,11 @@ nav, main, footer {display:grid;
 width: 100%;
 margin-bottom: 10px;}
 
-main {grid-template: auto;
+main {
 align-content: center;
 justify-content: space-evenly;}
 
 footer {height: auto;
-align-items: left;
 justify-items: left}
 
 .container {
