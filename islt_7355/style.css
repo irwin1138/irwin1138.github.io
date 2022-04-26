@@ -48,6 +48,9 @@ h4 {
     border: none;
     text-align: center;
 }
+  a[href]::after {
+    content: "["attr(href)"]";
+    color: blue;
 }
 
 /*tablet layout*/
