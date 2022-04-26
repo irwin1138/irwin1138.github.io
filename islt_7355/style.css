@@ -75,14 +75,14 @@ ul {
 
 /*tablet layout*/
 @media only screen and (max-width: 959px) {
-  font-size: 1.2rem;
+  font-size: 70%;
   image-size: 70%;
   video-size: 70%;
 }
 
 /*mobile layout*/
 @media only screen and (max-width: 500px) {
-  font-size: 1rem;
+  font-size: 40%;
   image-size: 40%;
   video-size: 40%;
 }
