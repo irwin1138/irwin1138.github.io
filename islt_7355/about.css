@@ -1,5 +1,17 @@
 /*grid*/
 
+nav, section, footer {
+display:grid;
+width: 100%;
+margin-bottom: 10px;}
+
+section {
+align-content: center;
+justify-content: space-evenly;}
+
+footer {height: 20px;
+justify-items: left}
+
 .container {
 display: grid;
 grid-template-columns: 50% 50%;
@@ -14,15 +26,3 @@ grid-template-areas:
 "Resume Resume"
 "Footer Footer";
 }
-
-nav, section, footer {
-display:grid;
-width: 100%;
-margin-bottom: 10px;}
-
-section {
-align-content: center;
-justify-content: space-evenly;}
-
-footer {height: 20px;
-justify-items: left}
