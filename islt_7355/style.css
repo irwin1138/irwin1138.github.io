@@ -1,12 +1,12 @@
 @font-face { 
-font-family: Updock-Regular, serif;
+font-family: Updock-Regular;
 src: url("Updock-regular.ttf"); 
 }
 
 h2, h3 {color: #631563; font-family: Palatino, URW Palladio L, serif;
 }
 
-h1 {color: #631563; font-family: Updock-Regular, serif; }
+h1 {color: #631563; font-family: Updock-Regular; }
 
 body {
   font-family: Verdana, sans-serif;
