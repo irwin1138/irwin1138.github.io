@@ -31,6 +31,11 @@ h4 {
   font-size: 1.5rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
+/* print */
 @media print {
   * {
     background: transparent;
