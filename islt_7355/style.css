@@ -41,7 +41,7 @@ ul {
     background: transparent;
     color: #000;
   }
-  image, video, nav 
+  .image, .video, nav 
   {
       display: none;
     }
