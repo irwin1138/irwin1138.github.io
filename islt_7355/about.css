@@ -1,15 +1,15 @@
 /*grid*/
 
-nav, section, footer {display:grid;
+nav, section, footer {
+display:grid;
 width: 100%;
 margin-bottom: 10px;}
 
-section {grid-template: 600px;
+section {
 align-content: center;
 justify-content: space-evenly;}
 
 footer {height: 20px;
-align-items: left;
 justify-items: left}
 
 .container {
@@ -22,7 +22,7 @@ grid-template-areas:
 "Navigation Navigation"
 "Header Header"
 "Section Section"
-"Photo Video"
+"Image Video"
 "Resume Resume"
 "Footer Footer";
 }
