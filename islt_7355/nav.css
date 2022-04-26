@@ -35,8 +35,15 @@ nav ul li:hover ul {
 /* responsive mobile navigation */
 
 .mobilemenu {
+    margin: 0 30px 0 0;
     display: none;
 }
+
+.mobilemenu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
 
 label {
     margin: 0 40px 0 0;
@@ -44,6 +51,7 @@ label {
     line-height: 70px;
     display: none;
 }
+
 #toggle {
     display: none;
 }
@@ -60,18 +68,20 @@ label {
     line-height: 70px;
 }
     
-.menu {
+.mobilemenu {
     text-align: center;
     width: 100%;
     display: none;
 }
-    
+        
 .mobilemenu a {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     margin: 0;
 }
 
+    
+    
 #toggle:checked + .mobilemenu {
     display: block;
     
