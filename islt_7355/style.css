@@ -31,11 +31,15 @@ h4 {
   font-size: 1.5rem;
 }
 
-img {
-  50%
+body, html {
+min-height: 100%;
 }
 
-
+body {
+  background-image: (images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* print */
 @media print {
