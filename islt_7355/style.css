@@ -30,27 +30,14 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
-/*
-body, html {
-min-height: 100%;
-}
 
-body {
-  background-image: (images/pripyat.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-*/
 .Footer {
-      background-image: url(images/pripyat.jpg);
-        background-size: cover;
-}
-
-.picbig {
-  position: absolute;
-  width: 0px;
-  transition: .5s linear 0s;
-  z-index: 10;
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("images/pripyat.jpg");
+    background-size: cover;
 }
 
 .pic:hover + .picbig{
