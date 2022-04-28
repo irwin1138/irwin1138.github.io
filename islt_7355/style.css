@@ -30,7 +30,7 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
-
+/*
 body, html {
 min-height: 100%;
 }
@@ -39,6 +39,11 @@ body {
   background-image: (images/pripyat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+*/
+.box {
+      background-image: url(images/pripyat.jpg);
+        background-size: cover;
 }
 
 /* print */
