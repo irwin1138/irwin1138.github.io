@@ -36,6 +36,7 @@ h4 {
 
 .Footer {
     width: 100%;
+  font-color: white;
     background-image: url("images/pripyat.jpg");
    /* background-size: cover; */
 }
