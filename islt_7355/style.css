@@ -40,7 +40,7 @@ h4 {
     background-size: cover;
 }
 
-.pic:hover + .picbig{
+.pic:hover {
   width: 200px;
 }
 
