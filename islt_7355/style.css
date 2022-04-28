@@ -40,7 +40,14 @@ h4 {
     background-size: cover;
 }
 
-.pic:hover {
+.bigpic {
+ position: absolute;
+  width: 0px;
+  transition: width .5s, linear 0s;
+  z-index: 10px;
+}
+
+.pic:hover + .bigpic {
   width: 200px;
 }
 
