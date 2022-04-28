@@ -40,15 +40,17 @@ h4 {
     background-size: cover;
 }
 
-.bigpic {
- position: absolute;
-  width: 0px;
+.pic {
   transition: width .5s, linear 0s;
-  z-index: 10px;
+  transform: scale(2.5);
 }
 
-.pic:hover + .bigpic {
+.pic:hover {
   width: 200px;
+}
+
+.pic {
+  transform: grow;
 }
 
 /* print */
