@@ -46,6 +46,17 @@ body {
         background-size: cover;
 }
 
+.picbig {
+  position: absolute;
+  width: 0px;
+  transition: .5s linear 0s;
+  z-index: 10;
+}
+
+.pic:hover + .picbig{
+  width: 200px;
+}
+
 /* print */
 @media print {
   * {
