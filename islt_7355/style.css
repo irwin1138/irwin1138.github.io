@@ -41,12 +41,11 @@ h4 {
 }
 
 .pic {
-  transition: width .5s, linear 0s;
-  transform: scale(2.5);
+  transition: 1s;
 }
 
 .pic:hover {
-  width: 200px;
+  transform: scale(2.5);
 }
 
 .pic {
