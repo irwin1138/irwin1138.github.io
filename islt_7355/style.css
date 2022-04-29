@@ -43,6 +43,7 @@ h4 {
   font-color: white;
     background-image: url("images/pripyat.jpg");
    /* background-size: cover; */
+  a { color:white; }
 }
 
 .pic {
