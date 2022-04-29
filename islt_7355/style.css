@@ -58,6 +58,27 @@ h4 {
   transform: grow;
 }
 
+/*table*/
+table {
+border-collapse: collapse;
+}
+
+table th {
+  text-align: left;
+  background-color: gray;
+    color: white;
+    padding: 4px 30px 4px 8px;
+}
+  
+table td {
+  border: 1px solid white;
+  padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: beige;
+}
+
 /* print */
 @media print {
   * {
