@@ -32,7 +32,26 @@ nav ul li:hover ul {
     display: block;
 }
 
-/* responsive mobile navigation */
+/* responsive mobile navigation*/
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+   
+
+
+@media only screen and (max-width: 600px) {
+    Navigation {
+        display: none;
+    }
+}
+
+
+
+
+/* joseph's attempt
 
 .mobilemenu {
     margin: 0 30px 0 0;
@@ -94,5 +113,5 @@ label {
 #toggle:checked + .mobilemenu {
     display: block;
 }
-
 }
+*/
