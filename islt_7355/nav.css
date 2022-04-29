@@ -43,7 +43,7 @@ nav ul li:hover ul {
 #hamburger-icon div {
  width: 35px;
     height: 3px;
-    background-color: white;
+    background-color: #9f9f9f;
     margin: 6px 0;
     transition .5s;
 }
