@@ -75,8 +75,12 @@ table td {
   padding: 4px 8px;
 }
 
-table tr:nth-child(odd) td {
-  background-color: beige;
+table tr:first-child td {
+   background-color: A694C3;
+}
+  
+table tr:nth-child(even) td {
+  background-color: A694C3;
 }
 
 /* print */
