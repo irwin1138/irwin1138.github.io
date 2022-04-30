@@ -1,9 +1,14 @@
 /*grid*/
 
+.Navigation, .Header, .Section, .Footer {
+width: 100%;
+margin-bottom: 5px;
+}
+
 .container {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 10% 10% 52% 28%;
+grid-template-rows: 10% 10% 45% 35%;
 gap: 0px;
 grid-auto-flow: row;
 grid-template-areas:
