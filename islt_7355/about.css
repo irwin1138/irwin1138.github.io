@@ -1,5 +1,6 @@
 /*grid*/
 
+/*
 nav, section, footer {
 display:grid;
 width: 100%;
@@ -11,6 +12,7 @@ justify-content: space-evenly;}
 
 footer {height: 20px;
 justify-items: left}
+*/
 
 .container {
 display: grid;
