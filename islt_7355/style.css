@@ -75,12 +75,8 @@ thead {
 color: blue;  
 }
 
-tfoot {
-  background-color: #f7f78f;
-}
-
-thead {
-   background-color: #f7f78f;
+tfoot, thead {
+   background-color: #f76f81;
 }
   
 tr:nth-child(odd) {
