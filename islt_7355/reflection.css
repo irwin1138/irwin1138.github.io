@@ -21,5 +21,4 @@ grid-template-areas:
 @media only screen and (max-width: 600px) {
 .container {
 display: block;
-}
-}
+  } }
