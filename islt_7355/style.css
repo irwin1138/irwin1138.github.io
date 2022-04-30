@@ -60,19 +60,19 @@ h4 {
 
 /*table*/
 table {
-border-collapse: collapse;
+  border: 1px solid #341D55;
+  border-collapse: collapse;
 }
 
-table th {
+th, td {
   text-align: left;
   background-color: gray;
-    color: white;
-    padding: 4px 30px 4px 8px;
+    color: blue;
+    padding: .2em .7em;
 }
-  
-table td {
-  border: 1px solid white;
-  padding: 4px 8px;
+
+tfoot {
+  background-color: #f7f78f;
 }
 
 table tr:first-child td {
