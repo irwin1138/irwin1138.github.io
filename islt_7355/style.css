@@ -80,7 +80,7 @@ font-color: blue;
 background-color: #f76f81;
 }
   
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: #A694C3;
 }
 
