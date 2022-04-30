@@ -60,6 +60,10 @@ a:visited { color:white; }
 }
 
 /*table*/
+figure {
+color: #341D55;  
+}
+
 table {
   border: 2px solid #341D55;
   border-collapse: collapse;
@@ -68,16 +72,12 @@ table {
 th, td {
   border: 2px solid #341D55;
   text-align: left;
-    font-color: #341D55;
     padding: .2em .7em;
 }
 
-thead {
-font-color: blue;  
-}
-
-tfoot, thead {
-   background-color: #f76f81;
+tr:first-child, tr:last-child {
+font-color: blue;
+background-color: #f76f81;
 }
   
 tr:nth-child(odd) {
@@ -86,7 +86,6 @@ tr:nth-child(odd) {
 
 caption {
 text-align: left;
-  color: #341D55;
 }
 
 /* print */
