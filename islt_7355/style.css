@@ -133,4 +133,5 @@ table tr:nth-child(even) td {
   font-size: 1.1rem;
   image-size: 40%;
   video-size: 40%;
+  grid: none;
 }
