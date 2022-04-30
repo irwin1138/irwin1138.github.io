@@ -74,14 +74,19 @@ th, td {
   text-align: left;
     padding: .2em .7em;
 }
-
-tr:first-child, tr:last-child {
-font-color: blue;
-background-color: #f76f81;
-}
   
 tr:nth-child(even) {
   background-color: #A694C3;
+}
+
+tr:first-child {
+font-color: blue;
+background-color: #f76f81;
+}
+
+tr:last-child {
+font-color: blue;
+background-color: #f76f81;
 }
 
 caption {
