@@ -128,14 +128,14 @@ text-align: left;
 /*tablet layout*/
 @media only screen and (max-width: 959px) {
   font-size: 1.2rem;
-  image-size: 70%;
-  video-size: 70%;
+  image-size: 80%;
+  video-size: 80%;
 }
 
 /*mobile layout*/
 @media only screen and (max-width: 500px) {
   font-size: 1.1rem;
-  image-size: 40%;
-  video-size: 40%;
+  image-size: 60%;
+  video-size: 60%;
   grid: none;
 }
