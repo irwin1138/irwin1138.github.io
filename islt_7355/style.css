@@ -65,6 +65,7 @@ table {
 }
 
 th, td {
+  border: 1px solid #341D55;
   text-align: left;
   background-color: gray;
     color: blue;
