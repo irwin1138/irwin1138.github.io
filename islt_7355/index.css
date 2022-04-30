@@ -21,7 +21,7 @@ grid-template-areas:
 @media only screen and (max-width: 600px) {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 4% 7% 64% 25%;
+grid-template-rows: 2% 4% 71% 22%;
 gap: 0px;
 grid-auto-flow: row;
 grid-template-areas:
