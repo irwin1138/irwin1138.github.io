@@ -8,7 +8,7 @@ margin-bottom: 5px;
 .container {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 15% 15% 45% 25%;
+grid-template-rows: 11% 17% 50% 22%;
 gap: 0px;
 grid-auto-flow: row;
 grid-template-areas:
