@@ -79,12 +79,12 @@ tfoot {
   background-color: #f7f78f;
 }
 
-table tr:first-child td {
-   background-color: A694C3;
+thead {
+   background-color: #f7f78f;
 }
   
-table tr:nth-child(even) td {
-  background-color: A694C3;
+tr:nth-child(even) {
+  background-color: #A694C3;
 }
 
 /* print */
