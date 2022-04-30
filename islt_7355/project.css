@@ -21,15 +21,5 @@ grid-template-areas:
 @media only screen and (max-width: 600px) {
 .container {
 display: block;
-  /* grid;
-grid-template-columns: 100%;
-grid-template-rows: 1% 2% 90% 7%;
-gap: 0px;
-grid-auto-flow: row;
-grid-template-areas:
-"Navigation"
-"Header"
-"Section"
-"Footer"; */
 }
 }
