@@ -72,7 +72,7 @@ flex-direction: column;
 .mobile-menu {
     display: none;
     position: absolute;
-    top: 50px; 
+    top: 350px; 
         left: 0;
         height: calc(100vh - 50px);
         width: 100%
