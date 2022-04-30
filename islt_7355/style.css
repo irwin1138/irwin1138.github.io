@@ -71,6 +71,10 @@ th, td {
     padding: .2em .7em;
 }
 
+thead {
+color: blue;  
+}
+
 tfoot {
   background-color: #f7f78f;
 }
