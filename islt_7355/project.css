@@ -17,3 +17,16 @@ grid-template-areas:
 "Section"
 "Footer";
 }
+
+@media only screen and (max-width: 600px) {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 2% 3% 88% 7%;
+gap: 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"Navigation"
+"Header"
+"Section"
+"Footer";
+}
