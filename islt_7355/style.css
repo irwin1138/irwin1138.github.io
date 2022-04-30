@@ -68,12 +68,12 @@ table {
 th, td {
   border: 2px solid #341D55;
   text-align: left;
-    color: #341D55;
+    font-color: #341D55;
     padding: .2em .7em;
 }
 
 thead {
-color: blue;  
+font-color: blue;  
 }
 
 tfoot, thead {
