@@ -42,8 +42,9 @@ h4 {
     width: 100%;
   font-color: white;
     background-image: url("images/pripyat.jpg");
-   /* background-size: cover; */
   a { color:white; }
+    a:link { color:white; }
+a:visited { color:white; }
 }
 
 .pic {
