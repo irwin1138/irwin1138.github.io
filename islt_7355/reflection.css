@@ -19,16 +19,7 @@ grid-template-areas:
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows: .5% 1% 90.5% 8%;
-gap: 0px;
-grid-auto-flow: row;
-grid-template-areas:
-"Navigation"
-"Header"
-"Section"
-"Footer";
+.container {
+display: block;
 }
 }
