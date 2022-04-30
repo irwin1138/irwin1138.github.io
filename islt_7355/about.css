@@ -2,13 +2,13 @@
 
 .Navigation, .Header, .Section, .Image, .Video, .Footer {
 width: 100%;
-margin-bottom: 10px;
+margin-bottom: 5px;
 }
 
 .container {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 10% 10% 30% 20% 15% 5% 10%;
+grid-template-rows: 5% 5% 35% 25% 15% 5% 10%;
 gap: 0px 0px;
 grid-auto-flow: row;
 grid-template-areas:
