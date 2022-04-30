@@ -1,30 +1,22 @@
 /*grid*/
 
-/*
-nav, section, footer {
-display:grid;
+.Navigation, .Header, .Section, .Image, .Video, .Footer {
 width: 100%;
-margin-bottom: 10px;}
-
-section {
-align-content: center;
-justify-content: space-evenly;}
-
-footer {height: 20px;
-justify-items: left}
-*/
+margin-bottom: 10px;
+}
 
 .container {
 display: grid;
-grid-template-columns: 50% 50%;
-grid-template-rows: 10% 10% 50% 10% 10% 10%;
+grid-template-columns: 100%;
+grid-template-rows: 10% 10% 30% 20% 15% 5% 10%;
 gap: 0px 0px;
 grid-auto-flow: row;
 grid-template-areas:
-"Navigation Navigation"
-"Header Header"
-"Section Section"
-"Image Video"
-"Resume Resume"
-"Footer Footer";
+"Navigation"
+"Header"
+"Section"
+"Image"
+"Video"
+"Resume"
+"Footer";
 }
