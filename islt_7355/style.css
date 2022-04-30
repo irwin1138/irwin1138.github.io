@@ -83,8 +83,13 @@ thead {
    background-color: #f7f78f;
 }
   
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #A694C3;
+}
+
+caption {
+text-align: left;
+  color: #341D55;
 }
 
 /* print */
