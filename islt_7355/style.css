@@ -133,4 +133,5 @@ text-align: left;
   th, td { display: block; }
   tr td:first-child { font-weight: bold; }
   thead { display: none; }
+  tbody { border-bottom-style: none; }
 }
