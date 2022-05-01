@@ -129,13 +129,13 @@ text-align: left;
 @media only screen and (max-width: 959px) {
   font-size: 1.2rem;
   image-size: 90%;
-  video-size: 90%;
+  video-size: 80%;
 }
 
 /*mobile layout*/
 @media only screen and (max-width: 500px) {
   font-size: 1.1rem;
   image-size: 80%;
-  video-size: 80%;
+  video-size: 60%;
   grid: none;
 }
