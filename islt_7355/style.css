@@ -75,7 +75,7 @@ th, td {
     padding: .2em .7em;
 }
   
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #A694C3;
 }
 
@@ -131,6 +131,6 @@ text-align: left;
   image-size: width="auto" height="300px";
   video-size: width="200px" height="auto";
   th, td { display: block; }
-  tfoot { display: none; }
   tr td:first-child { font-weight: bold; }
+  thead { display: none; }
 }
