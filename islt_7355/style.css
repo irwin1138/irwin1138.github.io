@@ -79,10 +79,6 @@ tr:nth-child(even) {
   background-color: #A694C3;
 }
 
-tr:nth-child(odd) {
-  background-color:  #f76f81;
-}
-
 caption {
 text-align: left;
 }
