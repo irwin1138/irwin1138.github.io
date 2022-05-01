@@ -133,9 +133,8 @@ text-align: left;
 }
 
 /*mobile layout*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   font-size: 1.1rem;
-  image-size: 70%;
-  video-size: 40%;
-  grid: none;
+  image-size: width="auto" height="300";
+  video-size: width="330px" height="100px">;
 }
