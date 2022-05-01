@@ -128,8 +128,8 @@ text-align: left;
 /*mobile layout*/
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
-  image-size: width="auto" height="300";
-  video-size: width="250px" height="150px";
+  image-size: width="auto" height="300px";
+  video-size: width="200px" height="auto";
   th, td { display: block; }
   tfoot { display: none; }
   tr td:first-child { font-weight: bold; }
