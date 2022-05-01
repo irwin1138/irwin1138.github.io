@@ -130,4 +130,7 @@ text-align: left;
   font-size: 1.1rem;
   image-size: width="auto" height="300";
   video-size: width="250px" height="150px";
+  th, td { display: block; }
+  tfoot { display: none; }
+  tr td:first-child { font-weight: bold; }
 }
