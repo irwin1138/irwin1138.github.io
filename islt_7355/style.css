@@ -85,7 +85,7 @@ text-align: left;
 
 /* print */
 @media print {
-  * {
+  {
     background: transparent;
     color: #000;
   }
@@ -101,7 +101,6 @@ text-align: left;
     border: none;
     text-align: center;
 }
-
   a[href]::after {
     content: "[ "attr(href)" ]";
     color: blue;
@@ -110,11 +109,9 @@ text-align: left;
     orphans: 3;
     widows: 3;
    }
-  
   @page {
     margin: 1cm
   }
-
   body {
      font-size: 11pt;
     font-family: Palatino, URW Palladio L, serif !important;;
@@ -132,5 +129,5 @@ text-align: left;
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
   image-size: width="auto" height="300";
-  video-size: width="250px" height="150px">;
+  video-size: width="250px" height="150px";
 }
