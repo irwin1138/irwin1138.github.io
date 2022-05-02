@@ -18,6 +18,10 @@ grid-template-areas:
 "Footer";
 }
 
+textarea {
+width: 400px; 
+}
+
 @media only screen and (max-width: 600px) {
 .container {
 display: block;
