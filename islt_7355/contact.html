@@ -53,8 +53,25 @@
 <h1>Owen Reissmann</h1>
         </div>
       <div class="Section">
-
-
+          <form id="Contact_form" action="contact.php" method="post">
+              
+              <input type="checkbox" name="contact_type1" value="job">Job Opportunity<br>
+              <input type="checkbox" name="contact_type2" value="networking">Networking<br>
+              <input type="checkbox" name="contact_type3" value="mentor">Mentorship<br>
+              <input type="checkbox" name="contact_type4" value="other">Other<br>
+              
+              <label for="first" accesskey="F"><u>F</u>irst name:</label>
+              <input type="text" name="first" id="first" accesskey="F" placeholder="Larson" autofocus><br><br>
+              <label for="last" accesskey="L"><u>L</u>ast name:</label>
+              <input type="text" name="last" id="last" accesskey="L" placeholder="Larson"><br><br>
+              <label for="email" accesskey="E"><u>E</u>mail address:</label>
+              <input type="text" name="email" id="email" accesskey="E" placeholder="JLarson@ticktick.boom"><br><br>   
+              <label for="comments" accesskey="P"<u>P</u>lease explain in further detail the nature of your interest in contacting me.</label>
+              <br> <textarea id="comments" placeholder="I would like your help doing some research for a screenplay I am writing."> </textarea>
+              <input type="submit" id="submit" value="Submit">
+              
+    <p><input type="submit" id=submit" value="Submit"></p>    
+</form>
         </div>
  <div class="Footer">
     <p> &nbsp; <img class="pic" src= "images/mail.png" alt="Mail icon"> &nbsp; <a href="mailto:or8hf@missouri.edu">Owen Reissmann or8hf@missouri.edu</a></p>
