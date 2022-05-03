@@ -124,7 +124,7 @@ text-align: left;
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
   image-size: width="auto" height="250";
-  video-size: width="150" height="auto";
+  video-size: width="100" height="auto";
   th, td { display: block; }
   tr td:first-child { font-weight: bold; }
   thead { display: none; }
