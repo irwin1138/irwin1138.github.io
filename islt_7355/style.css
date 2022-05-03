@@ -75,7 +75,7 @@ th, td {
     padding: .2em .7em;
 }
   
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: #A694C3;
 }
 
