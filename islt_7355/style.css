@@ -40,11 +40,11 @@ h4 {
 
 .Footer {
     width: 100%;
-  font-color: white;
+  color: white;
     background-image: url("images/pripyat.jpg");
-  a { color:white; }
-    a:link { color:white; }
-a:visited { color:white; }
+  a { color: white; }
+    a:link { color: white; }
+a:visited { color: white; }
 }
 
 .pic {
@@ -53,10 +53,6 @@ a:visited { color:white; }
 
 .pic:hover {
   transform: scale(2.5);
-}
-
-.pic {
-  transform: grow;
 }
 
 /*table*/
@@ -92,7 +88,7 @@ text-align: left;
   img, nav {
       display: none;
   }
-    .video {
+    video {
       display: none;
     }
  header 
@@ -127,8 +123,8 @@ text-align: left;
 /*mobile layout*/
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
-  image-size: width="auto" height="250px";
-  video-size: width="150px" height="auto";
+  image-size: width="auto" height="250";
+  video-size: width="150" height="auto";
   th, td { display: block; }
   tr td:first-child { font-weight: bold; }
   thead { display: none; }
