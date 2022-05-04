@@ -49,7 +49,25 @@
             <li><a href="#contact.html" >Contact</a></li>
         </ul>
         </div>
-      
+      <SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
       <div class="Header">
 <header>
     <h1>Owen Reissmann</h1>
@@ -66,6 +84,7 @@
     <p> &nbsp; <img class="pic" src= "images/phone.png" alt="Phone icon"> &nbsp; <a href="7155737778">7155737778</a></p>
     <p> &nbsp; &#169; 2022 Owen Reissmann All Rights Reserved</p>  
     <p> &nbsp; icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    <p> &nbsp; script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
     </div>
       </div>
 </body>
