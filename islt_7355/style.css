@@ -129,8 +129,8 @@ width: 350px;
 /*mobile layout*/
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
-  img-size: width="auto" height="250";
-  video-size: width="100" height="auto";
+  img: width="auto" height="250";
+  video: width="100" height="auto";
   th, td { display: block; }
   tr td:first-child { font-weight: bold; }
   thead { display: none; }
