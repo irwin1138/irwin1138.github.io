@@ -78,7 +78,7 @@ text-align: left;
 
 /* print */
 @media print {
-  {
+ body {
     background: transparent;
     color: #000;
   }
