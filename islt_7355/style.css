@@ -122,15 +122,15 @@ width: 350px;
 /*tablet layout*/
 @media only screen and (max-width: 959px) {
   font-size: 1.2rem;
-  img-size: 90%;
+  image-size: 90%;
   video-size: 80%;
 }
 
 /*mobile layout*/
 @media only screen and (max-width: 600px) {
   font-size: 1.1rem;
-  img: width="auto" height="250";
-  video: width="100" height="auto";
+  image-size: width="auto" height="250";
+  video-size: width="100" height="auto";
   th, td { display: block; }
   tr td:first-child { font-weight: bold; }
   thead { display: none; }
